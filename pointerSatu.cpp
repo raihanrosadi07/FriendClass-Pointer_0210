@@ -3,7 +3,12 @@ using namespace std;
 class mahasiswa{
     public:
     int nim;
-    void showNIM(){
+    void showNim(){
         cout<<"No Induk = "<<nim<<endl;
     }
 };
+
+int main (){
+    mahasiswa mhs{1};
+    mhs.showNim();
+}
